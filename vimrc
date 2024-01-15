@@ -51,3 +51,6 @@ if 1
     execute 'source' fnamemodify(expand('<sfile>'), ':h').'/init.vim'
 endif
 " vim:set et sw=2
+" nnoremap <Enter> i<Enter><Esc>k$
+" nnoremap <silent> zj o<Esc>k
+" nnoremap <silent> zk O<Esc>j
